@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets
+.env
+.env.*
+secrets.toml
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Generated files
+.pytest_cache/
+.coverage
+
+# Data – never commit real financial data
+data/raw/
+data/private/
+*.csv
+# Allow the synthetic sample dataset (no real records)
+!data/sample_transactions.csv
+
+# Saved model artefacts
+models/*.joblib
+models/*.pkl
+
+# Report outputs
+outputs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
